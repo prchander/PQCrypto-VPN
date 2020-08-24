@@ -1,5 +1,5 @@
 [submodule "openvpn/build/repos/openvpn-2.4"]
-	path = openvpn/build/repos/openvpn-2.4.4
+	path = openvpn/build/repos/openvpn-2.4.9
 	url = https://github.com/microsoft/openvpn
 	branch = pqcrypto
 [submodule "openvpn/build/repos/openvpn-build"]
@@ -12,5 +12,9 @@
 	branch = pqcrypto
 [submodule "openvpn/build/repos/openssl-oqs"]
 	path = openvpn/build/repos/openssl-oqs
-	url = https://github.com/kevinmkane/openssl
-	branch = OpenSSL_1_0_2-stable
+	url = https://github.com/open-quantum-safe/openssl
+	branch = OQS-OpenSSL_1_1_1-stable
+[submodule "openvpn/build/repos/liboqs"]
+	path = openvpn/build/repos/liboqs
+	url = https://github.com/open-quantum-safe/liboqs
+	branch = master
